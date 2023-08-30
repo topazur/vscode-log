@@ -1,0 +1,6 @@
+{
+  "format": "[vscode-log] {fileName}@Line {line}: ",
+
+  "/javascript|typescript|vue|html|svelte/": "console.log(\"{format}\", {selection});",
+  "/go/": "fmt.Printf(\"{format}%#v\\n\", {selection})"
+}
